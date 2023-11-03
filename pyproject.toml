@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ts-demo"
+version = "0.1.0"
+description = ""
+authors = ["Alpha <piotr@piotryordanov.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+quantbt = "^0.8.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
